@@ -1,0 +1,69 @@
+<svg width="180" height="220" viewBox="0 0 260 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Card Background -->
+  <rect width="260" height="320" rx="28" fill="#0B1220"/>
+
+  <!-- Glow -->
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Heart -->
+  <path d="M92 72C92 58 102 48 115 48C124 48 131 53 135 60C139 53 146 48 155 48C168 48 178 58 178 72C178 97 135 126 135 126C135 126 92 97 92 72Z"
+        fill="#FF5A00"
+        filter="url(#glow)"/>
+
+  <!-- ECG Line -->
+  <path d="M70 125H105L118 110L130 142L145 95L160 125H195"
+        stroke="#FF5A00"
+        stroke-width="5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        filter="url(#glow)"/>
+
+  <!-- Small Dots -->
+  <g opacity="0.15">
+    <circle cx="200" cy="70" r="4" fill="white"/>
+    <circle cx="220" cy="70" r="4" fill="white"/>
+    <circle cx="200" cy="90" r="4" fill="white"/>
+    <circle cx="220" cy="90" r="4" fill="white"/>
+  </g>
+
+  <!-- Title -->
+  <text x="40" y="190"
+        fill="#FF5A00"
+        font-size="28"
+        font-family="Poppins, Arial, sans-serif"
+        font-weight="700">
+    HEART RATE
+  </text>
+
+  <!-- BPM -->
+  <text x="40" y="255"
+        fill="white"
+        font-size="72"
+        font-family="Poppins, Arial, sans-serif"
+        font-weight="800">
+    98
+  </text>
+
+  <text x="150" y="255"
+        fill="#C9D1D9"
+        font-size="38"
+        font-family="Poppins, Arial, sans-serif"
+        font-weight="600">
+    bpm
+  </text>
+
+  <!-- Bottom Accent -->
+  <path d="M140 320C180 280 220 290 260 250V320H140Z"
+        fill="#FF5A00"
+        opacity="0.18"/>
+
+</svg>

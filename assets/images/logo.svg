@@ -1,0 +1,45 @@
+<svg width="320" height="80" viewBox="0 0 900 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Logo Symbol -->
+  <g transform="translate(20,20)" fill="#FF5A00">
+
+    <!-- X Shape -->
+    <path d="M40 10 
+             L110 10 
+             L190 90 
+             L270 10 
+             L340 10 
+             L225 120 
+             L340 230 
+             L270 230 
+             L190 150 
+             L110 230 
+             L40 230 
+             L155 120 Z"/>
+
+    <!-- Dumbbell Bar -->
+    <rect x="85" y="95" width="210" height="38" rx="8"/>
+
+    <!-- Left Plates -->
+    <rect x="55" y="75" width="18" height="78"/>
+    <rect x="28" y="86" width="14" height="56"/>
+
+    <!-- Right Plates -->
+    <rect x="308" y="75" width="18" height="78"/>
+    <rect x="338" y="86" width="14" height="56"/>
+
+  </g>
+
+  <!-- ForgeX Text -->
+  <text x="390"
+        y="145"
+        fill="#FF5A00"
+        font-size="118"
+        font-family="Arial Black, Poppins, sans-serif"
+        font-style="italic"
+        font-weight="900"
+        letter-spacing="1">
+    ForgeX
+  </text>
+
+</svg>

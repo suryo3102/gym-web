@@ -1,0 +1,51 @@
+<svg width="190" height="80" viewBox="0 0 380 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Main Card -->
+  <rect width="380" height="160" rx="28" fill="#121A24"/>
+
+  <!-- Glow Circle -->
+  <circle cx="78" cy="80" r="38" fill="#FF5A00" opacity="0.18"/>
+
+  <!-- Flame Icon -->
+  <path d="M78 42
+           C88 58 98 66 98 82
+           C98 98 89 112 78 112
+           C67 112 58 98 58 82
+           C58 68 66 58 78 42Z"
+        fill="#FF5A00"/>
+
+  <!-- Small Accent -->
+  <circle cx="320" cy="40" r="6" fill="#FF5A00" opacity="0.5"/>
+  <circle cx="340" cy="40" r="6" fill="#FF5A00" opacity="0.3"/>
+
+  <!-- Heading -->
+  <text x="135" y="62"
+        fill="#8D97A5"
+        font-size="20"
+        font-family="Poppins, Arial, sans-serif"
+        font-weight="600">
+    Calories Burned
+  </text>
+
+  <!-- Main Value -->
+  <text x="135" y="108"
+        fill="white"
+        font-size="38"
+        font-family="Poppins, Arial, sans-serif"
+        font-weight="800">
+    1,240
+  </text>
+
+  <!-- kcal -->
+  <text x="265" y="108"
+        fill="#FF5A00"
+        font-size="24"
+        font-family="Poppins, Arial, sans-serif"
+        font-weight="700">
+    kcal
+  </text>
+
+  <!-- Bottom Accent -->
+  <rect x="0" y="145" width="380" height="15" rx="8" fill="#FF5A00"/>
+
+</svg>
